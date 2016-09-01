@@ -1,0 +1,304 @@
+a:link {
+    text-decoration: none;
+}
+
+
+
+ #cover{ position:fixed;
+ top:0; 
+left:0;
+ background:rgba(0,0,0,0.6);
+ z-index:5;
+ width:100%;
+ height:100%;
+ display:none;
+text-align:center;
+ }
+
+#signupscreen {margin-top:1200px;
+background-color:white;
+ height:500px;
+ width:500px;
+ margin:0 -350px;
+ position:relative;
+ z-index:10;
+ display:none;
+padding-top: 10%;
+ }
+
+ #loginScreen { height:400px;
+                padding-top: 10%;
+position:fixed;
+ width:400px;
+color:black;
+background-color:white;
+ margin:0 -300px;
+ position:relative;
+ z-index:20;
+ display:none;
+
+ }
+
+ #signupScreen:target, #signupScreen:target + #cover{ 
+display:block;
+
+ }
+
+ #loginScreen:target, #loginScreen:target + #cover{ 
+display:block;
+
+ }
+
+ .cancel { 
+display:block;
+ position:absolute;
+ top:3px; right:2px;
+ background:rgb(245,245,245);
+ color:black;
+ height:30px;
+ width:35px;
+ font-size:30px;
+ text-decoration:none;
+ text-align:center;
+ font-weight:bold; }
+
+
+
+
+
+
+body{
+      width:99.4%;
+      
+   }
+
+#a1{
+width:100%;
+height:100%;
+}
+
+#a7{
+width:12%;
+height:355%;
+float:left;
+
+background:url(../images/b2.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;;
+margin-top:-20px;
+}
+
+#a2{
+width:12%;
+height:355%;
+float:left;
+
+background:url(../images/b2.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;;
+margin-top:-20px;
+
+}
+
+#a3{
+width:76%;
+height:100%;
+float:left;
+
+}
+
+#a4{
+width:75.6%;
+height:30%;
+float:left;
+position: fixed;
+margin-top:-10px;
+z-index: 5;
+}
+
+#a5{
+height:60%;
+width:100%;
+background-color:white;
+ float:left;
+}
+
+#logo{
+height:50vh;
+width:35vw;
+margin-top: -13%;
+}
+
+
+
+#example{
+background:url(../images/bg-menu.png)  center top;
+height:10%;
+width:100%;
+float:left;
+
+}
+
+#nav,#nav ul {
+	font-family:verdana;
+	list-style:none;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+
+#nav li {
+	float:left;
+	position:relative;
+	
+}
+#nav li a {
+	
+	color:#fff;
+	display:block;
+	float:left;
+	font-size:4.9vw ;
+        font-size:2.9vh;
+	padding:0 9vw;
+	position:relative;
+	text-decoration:none;
+	
+}
+
+#examp{
+background:url(../images/bg-menu.png)  center top;
+height:10%;
+width:100%;
+float:left;
+
+}
+
+#na,#na ul {
+	font-family:verdana;
+	list-style:none;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+
+#na li {
+	float:left;
+	position:relative;
+	
+}
+#na li a {
+	
+	color:#fff;
+	display:block;
+	float:left;
+	font-size:4.9vw ;
+        font-size:2.9vh;
+	padding:0 5.5vw;
+	position:relative;
+	text-decoration:none;
+	
+}
+
+
+#a6{
+height:100%;
+width:100%;
+float:left;
+}
+
+#home{
+height:90%;width:100%;background-color:white;padding-top:14%;
+}
+
+#slidshow{
+width:100%;height:65%;margin-top: -1%;
+}
+
+#fixedbutton {
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+}
+
+
+
+.feedback{
+	
+       
+position:absolute;
+	
+right:0px;
+	bottom:0px;
+        position:fixed;
+
+}
+
+
+.feedback a {
+
+	display:block;
+	
+         height:20px;
+
+	width:100px;
+
+	text-align:center;
+
+	background:red;
+	border:2px solid #fff;
+
+	outline:1px solid #a1a1a1;
+	
+	padding:5px;
+
+	float:left;
+
+	cursor:pointer;
+
+	
+	/*Font*/
+
+	color:#FFF;
+
+	font-weight:bold;
+
+	font-size:18px;
+
+}
+
+
+
+.feedback .form{
+
+	clear:both;
+
+	height:280px;
+
+	width:250px;
+
+	border:1px solid #000;
+
+	background:#fff;
+
+	padding:15px;
+
+	display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

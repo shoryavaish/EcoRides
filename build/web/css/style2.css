@@ -1,0 +1,136 @@
+/* 
+    Document   : style2
+    Created on : Jan 17, 2016, 4:16:48 PM
+    Author     : Sonu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+#profile{
+    margin-top: 30px;
+    float: right;
+    height: 7vh;
+    width: 15vw;
+    margin-right: 20px;
+    background-color: green;
+}
+#navl,#navl ul {
+	font-family:verdana;
+	list-style:none;
+	margin:0;
+	padding:0;
+	position:relative;
+        z-index: 30;
+}
+#navl {
+	height:50px;
+	left:0;
+	overflow:hidden;
+	top:0;
+        z-index: 30;
+}
+#navl li {
+	float:right;
+	position:relative;
+	z-index:10;
+       
+        
+}
+#navl li a {
+	background:url(img/bg-menu.png) no-repeat center top;
+	color:#fff;
+	display:block;
+	float:left;
+	font-size:1.1vh;
+        font-size:1.1vw;
+	height:51px;
+	line-height:40px;
+	padding:0 10px;
+	position:relative;
+	text-decoration:none;
+	z-index:20;
+        width: 11vw;
+        
+}
+#navl li:first-child a {
+      background:url(img/bg-menu.png) no-repeat center top;
+	padding-left:px;
+}
+#navl li ul li:first-child a {
+    
+	background:url(img/bg-menu.png) no-repeat center top;
+	padding-left:10px;
+}
+#navl li.pad {
+	
+	display:block;
+	height:51px;
+	width:35px;
+}
+#navl ul {
+	background:#009900;
+	height:auto;
+	padding:10px 0;
+	position:absolute;
+	top:-115px;
+	width:180px;
+	z-index:10;
+
+	border-radius:0px; /*some css3*/
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	transition:0.8s ease-in-out;
+	box-shadow:2px 2px 3px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:2px 2px 3px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow:2px 2px 3px rgba(0, 0, 0, 0.5);
+	-moz-transition:0.8s ease-in-out;
+	-o-transition:0.8s ease-in-out;
+	-webkit-transition:all 0.8s ease-in-out;
+}
+#navl ul li {
+    margin-top: 10px;
+	width:180px;
+        z-index: 10;
+}
+#navl ul li a {
+	background:transparent;
+	height:20px;
+	line-height:20px;
+	width:160px;
+        z-index: 10;
+}
+#navl:hover {
+	height:200px;
+        z-index: 10;
+}
+#navl li:hover ul {
+    z-index: 10;
+	-moz-transform:translate(0,161px); /*some css3*/
+	-o-transform:translate(0,161px);
+	-webkit-transform:translate(0,161px);
+}
+#navl a:hover,#navl li:hover > a {
+    z-index: 10;
+	color:#99ff33;
+}
+#share{
+    height:22vh;
+    width:20vw;
+    margin-top:5vh;
+    margin-left:7vw;
+    
+}
+
+#need{
+    height:22vh;
+    width:20vw;
+    margin-top:5vh;
+    margin-left:10vw; 
+    
+}
+
+
+
+

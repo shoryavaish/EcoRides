@@ -1,0 +1,182 @@
+#name{
+     height: 35px;
+     width: 230px;
+    background-color: #E8E8E8;
+     font-size: 150%;
+margin-top:20px;
+
+}
+#last{
+    height: 35px;
+     width: 230px;
+     background-color: #E8E8E8;
+     font-size: 150%;
+margin-top:20px;
+}
+#username{
+    height: 35px;
+     width: 230px;
+    background-color: #E8E8E8;
+     font-size: 150%;
+}
+#dob{
+    height: 35px;
+     width: 230px;
+     background-color: #E8E8E8;
+     font-size: 150%;
+}
+#email{
+  margin-top:10px;  
+height: 35px;
+     width: 470px;
+    background-color: #E8E8E8;
+     font-size: 150%;
+}
+#phone{
+margin-top:10px;
+    height: 35px;
+     width: 470px;
+     background-color: #E8E8E8;
+     font-size: 150%;
+}
+#mother{
+    height: 35px;
+     width: 470px;
+     background-color: #E8E8E8;
+     font-size: 150%;
+}
+#button{
+margin-top:10px;
+    height: 35px;
+     width: 200px;
+    background-color:0066ff;
+     font-size: 150%;
+     text-align: center;
+     color: white;
+}
+#pwd{
+margin-top:10px;
+    height: 35px;
+     width: 470px;
+     background-color: #E8E8E8;
+     font-size: 150%;
+}
+#button1{
+    margin-top:10px;
+    height: 35px;
+     width: 150px;
+    color: white;
+     font-size: 150%;
+     background-color: 0066ff;
+     text-align: center;
+}
+#user{
+   background-color: #E8E8E8;
+  margin-top:10px;  
+height: 35px;
+     width: 300px;
+     
+     font-size: 150%;
+    
+}
+#pass{
+    margin-top:10px;
+    height: 35px;
+     width: 300px;
+     background-color: #E8E8E8;
+     font-size: 150%;
+}
+
+
+
+.box h1{
+	text-align:center;
+	position:relative;
+        font-size: 6vw;
+        font-size: 6vh;
+        color:#e68a00;
+        
+	
+}
+.box {
+	width:80%;
+	height:70%;
+	background:#FFF;
+	margin:40px auto;
+        background-color: white;
+       opacity: 0.8;
+}
+.box1 h1{
+	text-align:center;
+	position:relative;
+        font-size: 6vw;
+        font-size: 6vh;
+        color:#e68a00;
+        
+	
+}
+.box1 {
+	width:80%;
+	height:58%;
+	background:#FFF;
+	margin:20px auto;
+        background-color: white;
+       opacity: 0.8;
+}
+
+.box2 h1{
+	text-align:center;
+	position:relative;
+        font-size: 6vw;
+        font-size: 6vh;
+        
+	
+}
+.box2 {
+    float: left;
+	width:40%;
+	height:82%;
+	background:#FFF;
+	margin:20px auto;
+        margin-left: 30px;
+        background-color: white;
+       opacity: 0.7;
+}
+
+
+
+
+.box3 {
+    float: left;
+	width:25%;
+	height:45%;
+	background:#FFF;
+	margin:10px auto;
+        margin-left: 10px;
+        background-color: white;
+       opacity: 0.7;
+}
+
+.effect7
+{
+    position:relative;
+   
+}
+.effect7:before, .effect7:after
+{
+	content:"";
+    position:absolute; 
+    z-index:-1;
+   
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    border-radius:100px / 10px;
+} 
+.effect7:after
+{
+    right:10px; 
+    left:auto; 
+    transform:skew(15deg) rotate(20deg);
+}
